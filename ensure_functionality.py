@@ -1,5 +1,7 @@
 from functools import wraps
 
+# Source code file for decorator.
+
 class FunctionalityError(Exception):
     """Custom exception raised when a decorated function fails to meet expectations."""
     pass
